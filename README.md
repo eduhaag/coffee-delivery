@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como desafio do curso de React da
 O desafio consistia em desenvolver, com base em uma interface fornecida no Figma ([aqui](https://www.figma.com/file/5yT9ZzZmRQRS4yivGGB3pl/Coffee-Delivery/)),
 uma aplicação simples, com 3 páginas, para uma empresa de delivery de café.
  
-![App Screenshot](https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png)  
+![App Screenshot](/public/screenshot.jpeg)  
 
 ## 📝 Conceitos utilizados
 - Estados
