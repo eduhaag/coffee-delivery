@@ -1,0 +1,121 @@
+import { Coffee } from '../reducers/selectedCoffees/reducer'
+import { CoffeeImages } from './coffeeImages'
+
+export const Coffees: Coffee[] = [
+  {
+    id: '001',
+    name: 'Expresso Tradicional',
+    description: 'O tradicional café feito com aguá quente e grãos moidos',
+    tags: ['tradicional'],
+    coffeeImage: CoffeeImages.ExpressoTradicional,
+    price: 9.9,
+  },
+  {
+    id: '002',
+    name: 'Expresso Americano',
+    description: 'Expresso diluído, menos intenso que o tradicional',
+    tags: ['tradicional'],
+    coffeeImage: CoffeeImages.ExpressoAmericano,
+    price: 9.9,
+  },
+  {
+    id: '003',
+    name: 'Expresso Cremoso',
+    description: 'Café expresso tradicional com espuma cremosa',
+    tags: ['tradicional'],
+    coffeeImage: CoffeeImages.ExpressoCremoso,
+    price: 9.9,
+  },
+  {
+    id: '004',
+    name: 'Expresso Gelado',
+    description: 'Bebida preparada com café expresso e cubos de gelo',
+    tags: ['tradicional', 'gelado'],
+    coffeeImage: CoffeeImages.ExpressoGelado,
+    price: 9.9,
+  },
+  {
+    id: '005',
+    name: 'Café com Leite',
+    description: 'Meio a meio de expresso tradicional com leite vaporizado',
+    tags: ['tradicional', 'com leite'],
+    coffeeImage: CoffeeImages.CafeComLeite,
+    price: 9.9,
+  },
+  {
+    id: '006',
+    name: 'Latte',
+    description:
+      'Uma dose de café expresso com o dobro de leite e espuma cremosa',
+    tags: ['tradicional', 'com leite'],
+    coffeeImage: CoffeeImages.Latte,
+    price: 9.9,
+  },
+  {
+    id: '007',
+    name: 'Cappucino',
+    description:
+      'Bebida com canela feita de doses iguais de café, leite e espuma',
+    tags: ['tradicional', 'com leite'],
+    coffeeImage: CoffeeImages.Capuccino,
+    price: 9.9,
+  },
+  {
+    id: '008',
+    name: 'Macchiato',
+    description:
+      'Café expresso misturado com um pouco de leite quente e espuma',
+    tags: ['tradicional', 'com leite'],
+    coffeeImage: CoffeeImages.Macchiato,
+    price: 9.9,
+  },
+  {
+    id: '009',
+    name: 'Mocaccino',
+    description: 'Café expresso com calda de chocolate, pouco leite e espuma',
+    tags: ['tradicional', 'com leite'],
+    coffeeImage: CoffeeImages.Moccacino,
+    price: 9.9,
+  },
+  {
+    id: '010',
+    name: 'Chocolate Quente',
+    description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+    tags: ['especial', 'com leite'],
+    coffeeImage: CoffeeImages.ChocolateQuente,
+    price: 9.9,
+  },
+  {
+    id: '011',
+    name: 'Cubano',
+    description:
+      'Drink gelado de café expresso com rum, creme de leite e hortelã',
+    tags: ['especial', 'alcoólico', 'gelado'],
+    coffeeImage: CoffeeImages.Cubano,
+    price: 9.9,
+  },
+  {
+    id: '012',
+    name: 'Havaiano',
+    description: 'Bebida adocicada preparada com café e leite de coco',
+    tags: ['especial'],
+    coffeeImage: CoffeeImages.Havaiano,
+    price: 9.9,
+  },
+  {
+    id: '013',
+    name: 'Árabe',
+    description: 'Bebida preparada com grãos de café árabe e especiarias',
+    tags: ['especial'],
+    coffeeImage: CoffeeImages.Arabe,
+    price: 9.9,
+  },
+  {
+    id: '014',
+    name: 'Irlandês',
+    description: 'Bebida a base de café, uísque irlandês, açúcar e chantilly',
+    tags: ['especial', 'alcoólico'],
+    coffeeImage: CoffeeImages.Irlandes,
+    price: 9.9,
+  },
+]
